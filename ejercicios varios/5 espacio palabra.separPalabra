@@ -1,0 +1,23 @@
+Algoritmo separPalabra
+	
+	Definir frase, letra Como Caracter
+	Definir tamanofrase Como Entero
+	Escribir "Ingrese una frase"
+	Leer frase
+	tamanofrase=longitud(frase )
+	deletreaFrase(frase,letra)
+	
+	Escribir " Vamos a deletrear la frase " , frase
+	
+FinAlgoritmo
+	
+SubProceso deletreaFrase (frase Por Referencia, letra Por Referencia)
+	Definir i Como Entero
+	Para i <- 0 Hasta Longitud(frase) Con Paso 1 Hacer
+		Escribir sin saltar Subcadena(frase, i, i), " "
+	FinPara
+	
+FinSubProceso
+
+	
+

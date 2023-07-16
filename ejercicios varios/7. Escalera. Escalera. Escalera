@@ -1,0 +1,22 @@
+Algoritmo escalera	
+	Definir n, a, b, escalones como entero
+	Escribir "Ingrese un número"
+	Leer n
+	escalon(n)
+	
+FinAlgoritmo
+
+SubProceso escalon(n por referencia)
+	definir a,b como entero
+	a=1
+	b=1
+	para a=1 hasta n Hacer
+		para b = 1 hasta a Hacer
+			Escribir b sin saltar
+		FinPara
+		Escribir""
+	FinPara
+	
+FinSubProceso
+
+
