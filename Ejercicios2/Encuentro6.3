@@ -1,0 +1,34 @@
+Algoritmo sin_titulo
+	
+	definir defec, sindef como entero
+	
+	Escribir "Ingrese la cantidad de tornillos defectuosos"
+	leer defec
+	escribir "Ingrese la cantidad de tornillos sin defectos"
+	leer sindef
+	
+	si defec < 200 y sindef > 1000 Entonces
+		escribir "El empleado es grado 8"
+	SiNo
+		si defec < 200 entonces
+			escribir "El empleado es grado 6"
+		SiNo
+			si sindef > 1000 entonces
+				escribir "el empleado es grado 7"
+			sino 
+				si defec > 200 y sindef < 1000 Entonces
+					escribir "El empleado es grado 5"
+				SiNo
+					escribir "es incorrecto"
+					
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+	
+	
+	
+	
+	
+	
+FinAlgoritmo
